@@ -16,6 +16,8 @@ updates:
     versioning-strategy: increase
     allow:
       - dependency-type: "production"
+    ignore:
+      - dependency-name: "moo"
     assignees: [zachleat]
     groups:
       npm-minor-patch:
