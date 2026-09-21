@@ -25,3 +25,6 @@ updates:
     cooldown:
       default-days: 7
     assignees: [zachleat]
+    groups:
+      codeql-action:
+        patterns: ["github/codeql-action*"]
